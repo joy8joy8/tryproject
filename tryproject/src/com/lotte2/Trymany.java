@@ -10,6 +10,7 @@ public class Trymany {
 		double min=77.0;
 		System.out.println(min/100);
 		System.out.println(min/78);
+		System.out.println(18*9);
 	}
 
 }
