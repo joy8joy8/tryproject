@@ -3,8 +3,18 @@ package com.bmi;
 public class Human {
 	float weight;
 	float height;
-	float bmi=weight/(height*height);
-public static void bmi(); 
+	
+	public Human(float weight,float height) {
+	this.weight=weight;
+	this.height=height;
+	}
+	
+	public void bmi() {
+	float hm=height/100f;
+	float a=weight/(hm*hm);
+	System.out.println(a);
+	
+	}
 }
 
 
